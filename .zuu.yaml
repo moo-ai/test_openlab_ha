@@ -12,4 +12,4 @@
     description: |
       Test mail
     run: .zuul/playbooks/test-mail/run.yaml
-    nodeset: ubuntu-xenial
+    nodeset: ubuntu-xenial-arm64
