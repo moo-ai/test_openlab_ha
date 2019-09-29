@@ -8,7 +8,7 @@
 - job:
     name: test-mail
     parent: init-test
-    timeout: 36000
+    timeout: 3600
     description: |
       Test mail
     run: .zuul/playbooks/test-mail/run.yaml
