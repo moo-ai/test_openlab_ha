@@ -1,7 +1,7 @@
 - project:
     name: moo-ai/test_openlab_ha
-    mail:
-      check:
+    check:
+      jobs:
         - test
 
 
