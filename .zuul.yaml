@@ -1,15 +1,15 @@
 - project:
     name: moo-ai/test_openlab_ha
     mail:
-      jobs:
-        - test-mail
+      check:
+        - test
 
 
 - job:
-    name: test-mail
+    name: test
     parent: init-test
     timeout: 3600
     description: |
-      Test mail
+      Test
     run: .zuul/playbooks/test-mail/run.yaml
     nodeset: ubuntu-xenial-arm64
