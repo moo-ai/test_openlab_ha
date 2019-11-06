@@ -2,11 +2,11 @@
     name: moo-ai/test_openlab_ha
     check:
       jobs:
-        - test
+        - test-huawei-arm
 
 
 - job:
-    name: test
+    name: test-huawei-arm
     parent: init-test
     timeout: 3600
     description: |
